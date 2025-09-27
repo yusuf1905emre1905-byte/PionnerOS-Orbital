@@ -1,0 +1,39 @@
+; boot.asm (PionnerOS - Assembly Bootloader)
+
+org 0x7c00
+bits 16
+
+start:
+    cli           
+    mov ax, 0x00  
+    mov ds, ax
+    mov es, ax
+    mov ss, ax
+    mov sp, 0x7c00 
+    sti           
+
+    mov si, welcome_msg
+.print_loop:
+    mov al, [si]    
+    cmp al, 0       
+    je .ready_to_jump
+    mov ah, 0x0e    
+    mov bh, 0x00
+    mov bl, 0x0F    
+    int 0x10        
+    inc si          
+    jmp .print_loop  
+
+.ready_to_jump:
+    bits 32 
+    mov esp, 0x90000 
+
+    extern kernel_main 
+    call kernel_main   
+
+    jmp $ 
+
+welcome_msg db "PionnerOS (ORBITAL) Bootloader: Cekirdek Yukleniyor...", 0x0D, 0x0A, 0
+
+times 510 - ($ - $$) db 0
+dw 0xAA55
