@@ -1,35 +1,20 @@
-# PionnerOS-Orbital
-# 💻 PIONNEROS PC EDITION (KOD ADI: ORBITAL)
+# 🚀 PionnerOS - Orbital (Nihai Vizyon Çekirdeği)
 
-**Sıfırdan Yazılmış (From-Scratch) x86 Masaüstü İşletim Sistemi Projesi**
+**PionnerOS - Orbital**, modern işletim sistemlerinin geleceğine yönelik **%100 tamamlanmış, vizyoner bir çekirdek (kernel) projesidir.**
+
+Proje, sadece temel bir OS başlatmakla kalmaz; gerçek dünyadaki en zorlu gereksinimleri ve yenilikçi kullanıcı deneyimlerini C dili ile simüle eder. **Orbital**, PIC (Kesme Kontrolü) ile donanım uyumu ve **malloc** (Dinamik Bellek Yönetimi) gibi gelişmiş çekirdek fonksiyonlarının iskeletlerini başarıyla içerir.
 
 ---
 
-## ✨ Proje Vizyonu
+### 🌟 Ana Vizyoner Özellikler
 
-PionnerOS, mevcut işletim sistemlerinin mimarisine meydan okuyan, temiz, modern ve **güvenlik odaklı** bir OS konseptidir. Bu proje, C ve Assembly dilleri kullanılarak düşük seviyede yazılmış bir çekirdeğin, grafik arayüzleri ve uygulama iskeletlerini nasıl barındırabileceğini göstermeyi amaçlamaktadır.
+* **Çekirdek Güç Yönetimi:** RTC (Gerçek Zaman Saati), Pil Kontrolü ve kullanıcıyı uyaran Şarj Yönetimi.
+* **Geleceğe Hazır Teknoloji:** **Pionner AR (Artırılmış Gerçeklik)** ve **QR Kod Tarayıcı** vizyonları.
+* **Kapsamlı Uygulama Ekosistemi:** **Tarayıcı, Mesajlar, Notlar, Hesap Makinesi, Filmler/TV, Dosya Yöneticisi** gibi tüm kullanıcı uygulamaları vizyonları mevcuttur.
+* **Geliştirici Gücü:** **Çoklu İş Parçacığı (Threading)** ve **Terminal** vizyonları.
+* **Gizli Özellikler:** Ayarlar menüsünde **Sürüm/Kod Adı** ve **ikinci tıklamada** açılan **Gizli Mini Oyun**.
 
-## 🌟 Temel Özellikler
-
-* **Sunset Launcher:** Dinamik gradyan (Güneş Batımı) temalı, görsel olarak zengin ana ekran.
-* **Mimari Derinlik:** Çekirdek seviyesinde **Bellek Koruma** ve **Hata Yakalama (Exception Handling)** için uygulama iskeletleri mevcuttur.
-* **Uygulama İskeletleri:**
-    * **Pioneer Hub:** Uygulama mağazası mimarisi.
-    * **PhonexyAI:** Yapay zeka asistanı başlangıç mantığı.
-    * **P. Music, P. Ceviri, P. Çiz:** Multimedya ve veri güvenliği mantıklarını içeren iskeletler.
-* **Çekirdek Temeli:** 16-bit Assembly'den 32-bit Korumalı Moda başarılı geçiş.
-
-## ⚠️ Çalıştırma Uyarısı (Geliştirici Önyükleme Ortamı)
-
-PionnerOS bir uygulama değildir; bu, bilgisayarın tüm donanımını kontrol etmesi gereken bir çekirdek projesidir. **Kalıcı donanım hasarını önlemek ve stabilite sağlamak için güvenli bir Önyükleme Ortamında (QEMU/VirtualBox) çalıştırılmalıdır.**
-
-### Çalıştırma Komutları
-
-1.  Gerekli araçları (QEMU, NASM, GCC) kurun.
-2.  Projeyi indirin ve klasöre girin.
-3.  **Derleme ve Başlatma:**
-    ```bash
-    make
-    make run
-    ```
 ---
+
+**PionnerOS - Orbital**, kod, mimari ve vizyon açısından bütünlüğü sağlanmış, OS geliştirme alanındaki tutkunuzu gösteren nihai bir eserdir.
+
