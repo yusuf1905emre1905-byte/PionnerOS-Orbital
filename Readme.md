@@ -43,6 +43,3 @@ QEMU ile hızlı test ve hata ayıklama yapılır.
 # ... (Derleme adımları)
 # QEMU ile başlat
 qemu-system-i386 -kernel PionnerOS.bin
-
-3. Gerçek Donanım (Üretim):
-Derlenen PionnerOS.bin dosyasını bir Bootable USB'ye yazdırarak eski 32-bit mimariye sahip gerçek bir bilgisayarda doğrudan çalıştırabilirsiniz. Bu, PionnerOS'un sadece bir simülasyon değil, Linux/Windows gibi donanımı devralabilen gerçek bir çekirdek olduğunun en büyük kanıtıdır.
